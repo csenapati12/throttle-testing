@@ -5,7 +5,7 @@ pipeline {
       throttleJobProperty(
           categories: ['throttle'],
           throttleEnabled: true,          
-          maxConcurrentTotal: 1,
+          maxConcurrentTotal: 2,
 	  throttleOption: 'project',
           
       )
