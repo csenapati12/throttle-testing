@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Main') {
             steps {
-                echo 'I m in main branch'
+                echo 'I m in Throttle2 branch'
                bat ''':a
 echo "i m here"
 goto a''' 
