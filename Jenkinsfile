@@ -4,9 +4,9 @@ pipeline {
  options {
       throttleJobProperty(
           categories: ['throttle'],
-          throttleEnabled: true,
-		  throttleOption: 'project',
-          maxConcurrentTotal: 2
+          throttleEnabled: true,          
+          maxConcurrentTotal: 1,
+	  throttleOption: 'project',
           
       )
     }
