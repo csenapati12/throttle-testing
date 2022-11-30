@@ -12,9 +12,9 @@ pipeline {
     }
 
     stages {
-        stage('Main') {
+        stage('Throttle3') {
             steps {
-                echo 'I m in main branch'
+                echo 'I m in Throttle3'
                bat ''':a
 echo "i m here"
 goto a''' 
